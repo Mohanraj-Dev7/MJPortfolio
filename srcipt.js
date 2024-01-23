@@ -1,6 +1,6 @@
 let projectContainer = document.getElementById("projects");
 
-fetch('https://gitfolio.pythonanywhere.com/git/?profile="SHK-MNRJ"')
+fetch('https://gitfolio-api.onrender.com/git/?profile="SHK-MNRJ"')
     .then(res => res.json())
     .then(repos => {
         console.log(repos);
