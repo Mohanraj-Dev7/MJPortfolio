@@ -10,7 +10,7 @@
     position: absolute;
     background-color: #164863;
     width: 100%;
-    height: calc(400vh + 80px);
+    height: calc(310vh + 80px);
     z-index: -999;
 
 }
@@ -32,7 +32,7 @@
 }
 
 .max-width {
-    max-width: 1300px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -139,7 +139,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 1rem;
     border-radius: 10px;
     color: var(--ligth-color);
 }
@@ -200,21 +200,13 @@ img {
 .repoSpace {
     width: 250px;
     border-radius: 10px;
-    height: 200px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     margin: 15px;
     padding: 15px;
     background-color: var(--ligth-color);
     position: relative;
-}
-
-.techStack {
-    list-style-type: none;
-    display: flex;
-    padding: 20px 0 0 0;
-    position: absolute;
-    bottom: 20px;
 }
 
 .desc {
