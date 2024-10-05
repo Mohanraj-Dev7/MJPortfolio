@@ -1,6 +1,6 @@
 let projectContainer = document.getElementById("projects");
 
-fetch('https://gitfolio-api.onrender.com/git/repos/?profile="Mohanraj-Dev7"&contents="base"')
+fetch('https://gitfolio-api.onrender.com/git/repos/?profile="mraj-dev"&contents="base"')
     .then(res => res.json())
     .then(repos => {
         for (let i in repos) {
